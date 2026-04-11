@@ -59,19 +59,11 @@ footer {
 
 	background-color: black;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	text-align: center;
 	font-size: 0.75em;
-
 }
-
-/* Regole per rendere visibili gli elementi del footer - da cancellare alla fine */
-footer>div {
-	border: 2px dashed white;
-	min-width: 85px;
-}
-
 
 /* Sidebar */
 .sidebar {
@@ -166,4 +158,31 @@ da rimuovere una volta concluso
 	font-weight: 600;
 	margin: 0.5em 0;
 }
+
+/* FOOTER - position and style of footer elements */
+
+footer>div>i
+	{
+		font-size: 2.5em;
+	}
+
+#add-button {
+	font-size: 2.5em;
+	color: black;
+	background-color: #fff;
+	width: 55px;
+	height: 40px;
+	border-radius: 30%;
+	border-left: aqua 3px solid;
+	border-right: magenta 3px solid;
+}
+
+#hide {
+	color: rgba(0, 0, 0, 1);
+}
+
+
+
+
+
 
