@@ -27,6 +27,10 @@
   <!-- Container della pagina, necessario per via del layout particolare -->
   <div class="reel-page debug">
     <video src="assets/video/coder.mp4" autoplay muted loop></video>
+    <div class="reel-info">
+      <p id="user-id">boolean.careers</p>
+      <p id="description">Prova il Fundamentals Camp. 20 ore di corso gratuito per...<span style="font-weight: 800;">Vedi altro</span></p>
+    </div>
 
 
     <!-- Header -->
@@ -58,14 +62,37 @@
       </div>
       <div class="sends">
         <i class="bi bi-diamond-fill"></i>
-        <i class="bi bi-arrow-90deg-right"></i> <!-- TO DO: put arrow above diamond -->
+        <i class="bi bi-arrow-90deg-right" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -55%) scale(0.5); color: #004d80;">
+        </i>
         <p id="number-sends">491</p>
       </div>
     </div>
 
     <!-- Footer -->
     <footer>
-      
+        <div class="home-button">
+          <i class="bi bi-house-fill"></i>
+          <p>Home</p>
+        </div>
+
+        <div class="friends-button">
+        <i class="bi bi-people"></i>  
+        <p>Amici</p>
+        </div>
+
+        <div class="add-button">
+          <p id="add-button">+</p>
+        </div>
+
+        <div class="messages-button">
+        <i class="bi bi-chat-square"></i>
+        <p>Posta in arrivo</p>
+        </div>
+
+        <div class="profile-button">
+        <i class="bi bi-person"></i>
+        <p>Profilo</p>
+        </div>
     </footer>
   </div>
 

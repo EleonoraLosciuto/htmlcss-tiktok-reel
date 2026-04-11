@@ -15,6 +15,10 @@ video {
 	display: block;
 	object-position: center;
 	object-fit: cover;
+	
+	/* Add z index - ISSUE 
+	position: relative;
+	z-index: -1; */
 }
 
 .reel-page {
@@ -40,6 +44,7 @@ video {
 	padding: 0.5em 20px;
 }
 
+
 /* Footer */
 
 footer {
@@ -51,7 +56,22 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	font-size: 0.75em;
+
 }
+
+/* Regole per rendere visibili gli elementi del footer - da cancellare alla fine */
+footer>div {
+	border: 2px dashed white;
+	min-width: 85px;
+}
+
 
 /* Sidebar */
 .sidebar {
@@ -76,24 +96,12 @@ da rimuovere una volta concluso
 --------------------- */
 .debug footer {
 	min-height: 100px;
-	border: 2px dashed #fff;
 }
 
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
 
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
 
-/* --------------------- */
-
-/* Student code */
-/* Style and position of element in the reel header */
+/* STUDENT CODE */
+/* HEADER - Style and position of element in the reel header */
 #Explore, #Followed {
 	color: rgba(255, 255, 255, 0.75);
 }
@@ -112,6 +120,7 @@ da rimuovere una volta concluso
 	align-items: center; 
 }
 
+/* SIDEBAR - Style and position of element in the sidebar */
 .sidebar #user-pic {
 	width: 50px;
 	border-radius: 50%;
@@ -120,10 +129,41 @@ da rimuovere una volta concluso
 }
 
 .sidebar>div>i {
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 
-.sidebar>div>.bi-arrow-90deg-right { /* change dimension and transparenci of arrow that must be put over diamond - transparency = 1 make it invisible */
+.sidebar>div>p {
 	font-size: 0.75em;
-	color: rgba(0, 0, 0, 1);
+	padding-top: 3px;
 }
+
+/* ISSUE: put the arrow icon on top of diamond icon */
+
+.sidebar .bi-arrow-90deg-right { 
+	font-size: 0.75em;
+	color: rgba(255, 255, 255, 0);
+	position: absolute;
+	/*  z-index: 1; ISSUE */
+	top: 50%; 
+	left: 50%;
+}
+
+.sidebar>.sends>.bi-diamond-fill {
+	position: relative;
+	/* z-index: 0; ISSUE */ 
+}
+
+/* REEL-PAGE - position and style of reel description */
+.reel-info {
+	position: absolute;
+	color: #fff;
+	bottom: 12%;
+	width: 75%;
+	padding: 10px;
+}
+
+.reel-info>#user-id{
+	font-weight: 600;
+	margin: 0.5em 0;
+}
+
