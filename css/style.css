@@ -62,6 +62,12 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+	text-align: center;
+	gap: 30px;
 }
 
 /* ---------------------
@@ -95,13 +101,29 @@ da rimuovere una volta concluso
 #FY {
 	border-bottom: 3px white solid;
 	padding: 0.5em 0;
-
+	
 }
 
-.top-nav { /* I created top-nav div for the 3 central buttons*/
+.top-nav { /* I created top-nav div for the three buttons inside the header*/
 	display: flex;
 	flex-direction: row;
 	width: 40%;
 	justify-content: space-between;
 	align-items: center; 
+}
+
+.sidebar #user-pic {
+	width: 50px;
+	border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.sidebar>div>i {
+	font-size: 1.5em;
+}
+
+.sidebar>div>.bi-arrow-90deg-right {
+	font-size: 0.75em;
+	color: rgba(0, 0, 0, 1);
 }
