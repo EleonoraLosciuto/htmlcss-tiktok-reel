@@ -41,7 +41,7 @@ video {
 
 	color: white;
 	display: flex;
-	padding: 0.5em 20px;
+	padding: 1.5em 20px;
 }
 
 
@@ -62,7 +62,9 @@ footer {
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
-	font-size: 0.75em;
+	font-size: 0.6em;
+	padding: 15px 0;
+	flex-wrap: nowrap;
 }
 
 /* Sidebar */
@@ -82,20 +84,16 @@ footer {
 	gap: 30px;
 }
 
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 100px;
-}
-
-
-
 /* STUDENT CODE */
 /* HEADER - Style and position of element in the reel header */
+
+.reel-header i {
+	font-size: 1.25em;
+}
+
 #Explore, #Followed {
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(131, 154, 163, 0.75);
+	font-weight: 500;
 }
 
 #FY {
@@ -149,7 +147,7 @@ da rimuovere una volta concluso
 .reel-info {
 	position: absolute;
 	color: #fff;
-	bottom: 12%;
+	bottom: 7.5%;
 	width: 75%;
 	padding: 10px;
 }
@@ -161,25 +159,31 @@ da rimuovere una volta concluso
 
 /* FOOTER - position and style of footer elements */
 
+footer>div {
+	width: 100px;
+}
+
 footer>div>i
 	{
 		font-size: 2.5em;
 	}
 
-#add-button {
+.add-button {
 	font-size: 2.5em;
 	color: black;
+	font-weight: 500;
 	background-color: #fff;
-	width: 55px;
-	height: 40px;
+	width: 45px;
+	height: 30px;
 	border-radius: 30%;
 	border-left: aqua 3px solid;
 	border-right: magenta 3px solid;
+	text-align: center;
+	align-self: flex-start;
+	line-height: 30px;
+	vertical-align: middle;
 }
 
-#hide {
-	color: rgba(0, 0, 0, 1);
-}
 
 
 
