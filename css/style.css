@@ -123,7 +123,7 @@ da rimuovere una volta concluso
 	font-size: 1.5em;
 }
 
-.sidebar>div>.bi-arrow-90deg-right {
+.sidebar>div>.bi-arrow-90deg-right { /* change dimension and transparenci of arrow that must be put over diamond - transparency = 1 make it invisible */
 	font-size: 0.75em;
 	color: rgba(0, 0, 0, 1);
 }
