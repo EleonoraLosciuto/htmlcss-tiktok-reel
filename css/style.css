@@ -106,7 +106,7 @@ footer {
 	align-items: center; 
 }
 
-/* Red dot next to "Seguiti" */
+/* Red dots next to "Seguiti" */
 
 .reel-header .bi-circle-fill {
 	color:rgba(255, 0, 0, 0.25);
@@ -120,7 +120,7 @@ footer {
 
 /* User pic */
 
- .sidebar #user-pic {
+#user-pic {
 	width: 50px;
 	border-radius: 50%;
 	border: 2px solid white;
@@ -153,6 +153,23 @@ footer {
 	scale: 0.5;
 }
 
+/* add "add" button on top of user pic in sidebar */
+.sidebar-user-pic {
+	position: relative;
+	font-size: 1.5rem;
+}
+
+#sidebar-add-button {
+	padding: 0;
+	background-color: red;
+	width: 20px;
+	border-radius: 50%;
+	line-height: 20px;
+	position: absolute;
+	top: 50px;
+    left: 30%;
+    translate: 0 -50%;
+}
 
 
 /* REEL-PAGE - position and style of reel description */
