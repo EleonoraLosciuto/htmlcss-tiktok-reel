@@ -211,8 +211,24 @@ footer>div>i
 	text-align: center;
 	align-self: flex-start;
 	line-height: 30px;
-	vertical-align: top;
 }
+
+/* add, style and position messages to read info */
+
+.messages-button {
+	position: relative;
+}
+
+#to-read {
+	background-color: red;
+	padding: 0 5px;
+	border-radius: 8px;
+	position: absolute;
+    top: 0;
+    right: 25px;
+    translate: -30% 0;
+}
+
 
 
 
