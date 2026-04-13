@@ -15,18 +15,18 @@ The task is re-creating a web-page, provided by the teacher, by using HTML and C
 htmlcss-tiktok-reel/ <br>
 ├── .gitignore <br>
 ├── index.html <br>
-├── README.md <br>>
-└── css/ <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── style.css <br>
+├── README.md <br>
+├── css/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── style.css <br>
 └── assets/ <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── img/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;├──img/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── boolean_logo.png <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── booltok_logo.png <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── screencapture.png <br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── video/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── screencapture.png <br>
+&nbsp;&nbsp;&nbsp;&nbsp;└──  video/ <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── coder.mp4 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── night-life.mp4 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── starry-sky.mp4 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──  starry-sky.mp4 <br>
 
 
 ## REERENCE SCREENSHOT
